@@ -13,8 +13,8 @@ class rickymorti {
 function show (info) {
     let id = document.getElementById("apirym");
     id.innerHTML += `<div class="card">
-    <h4>${info[0]}</h4>
-    <p><h5>${info[1]}</h5></p>
+    ${info[0]}
+    <p>${info[1]}</p>
     <img width="50%" src="${info[2]}"/>
     </div>`;
 }

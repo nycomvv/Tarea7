@@ -1,10 +1,16 @@
 * {
     margin: 0%;
     padding: 0%;
-    background-color: rgb(219, 191, 238);
+    background-color: rgb(178, 167, 185);
+}
+
+body {
+    text-align: center;
 }
 
 .container {
+    display: grid;
+    justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     &-title {
@@ -12,18 +18,19 @@
         text-align: center;
         margin-bottom: 10px;
         color: black;
+        font-weight: bolder;
     }
     &-subtitle {
-        font-size:15px;
+        margin-bottom: 0px;
+        font-size: 12px;
         text-align: center;
-        color: #fffa1f;
+        color: #787609;
     }
-    &-dark {
-        margin: 20px auto;
+    &-line {
+       margin: 20px auto;
         width: 90%;
-        height: 1px;
         padding: 1px;
-        background-color: rgb(7, 69, 7);
+        background-color: rgb(42, 72, 42);
     }
     &-card {
         display: grid;
@@ -31,24 +38,26 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        gap: 5px;
+        gap: 10px;
     }
 }
-
 .card {
-    margin-top: 10px;
-    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-weight: bolder;
+    font-size: 10px;
     width: 150px;
     color: rgb(139, 14, 14);
-    border: 1px solid rgb(31, 8, 80);
+    border: 3px solid rgb(34, 3, 101);
     border-radius: 20px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    box-shadow: 7px 13px 37px rgba(18, 18, 18, 0.7);
+    box-shadow: 7px 13px 37px rgba(132, 60, 60, 0.7);
 }
