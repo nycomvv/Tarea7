@@ -15,7 +15,7 @@ function show (info) {
     id.innerHTML += `<div class="card">
     ${info[0]}
     <p>${info[1]}</p>
-    <img width="50%" src="${info[2]}"/>
+    <img width="70%" src="${info[2]}"/>
     </div>`;
 }
 
