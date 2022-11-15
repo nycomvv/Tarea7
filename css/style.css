@@ -26,6 +26,7 @@ body {
   font-size: 10px;
   font-weight: bolder;
   color: rgb(47, 85, 47);
+  margin: 5px;
 }
 .container-card {
   display: grid;
@@ -44,9 +45,19 @@ body {
 }
 
 span {
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: bolder;
+  font-style: italic;
+  color: #000;
+  margin: 10px;
+}
+
+p {
+  font-size: 12px;
+  font-style: italic;
   font-weight: bolder;
   color: #000;
+  margin: 4px;
 }
 
 .card {
