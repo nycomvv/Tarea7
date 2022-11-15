@@ -53,11 +53,10 @@ body {
 }
 
 p {
-  padding: 1px;
+  padding: 2px;
   color: rgb(139, 14, 14);
   font-weight: bolder;
   font-size: 10px;
-  font-style: italic;
 }
 
 img {
@@ -81,8 +80,6 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-weight: bolder;
-  font-size: 10px;
   width: 150px;
   border: 2px solid rgb(34, 3, 101);
   border-radius: 20px;
