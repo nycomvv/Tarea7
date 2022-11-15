@@ -24,10 +24,11 @@ body {
     &-subtitle {
         font-weight: bolder;
         text-align: center;
-        font-size: 10px;
+        font-style: italic;
+        font-size: 12px;
         font-weight: bolder;
-        color: rgb(47, 85, 47);
-        margin:5px;
+        color: #000;
+        margin: 5px;
     }
 
     &-card {
@@ -38,6 +39,14 @@ body {
         text-align: center;
         gap: 10px;
     }
+
+    &-author {
+        font-size: 10px;
+        font-style: italic;
+        font-weight: bolder;
+        color: rgb(47, 85, 47);
+        margin: 4px;
+    }
 }
 
 .hrlinea {
@@ -47,20 +56,23 @@ body {
     border: 2px solid rgb(34, 3, 101);
 }
 
+p {
+    padding: 1px;
+    color: rgb(139, 14, 14);
+    font-weight: bolder;
+    font-size: 10px;
+    font-style: italic;
+}
+img {
+    margin:10px;
+    width: 70%;
+}
 span {
     font-size: 18px;
     font-weight: bolder;
     font-style: italic;
     color: #000;
     margin: 10px;
-}
-
-p {
-    font-size: 12px;
-    font-style: italic;
-    font-weight: bolder;
-    color: #000;
-    margin: 4px;
 }
 
 .card {
@@ -73,8 +85,7 @@ p {
     align-items: center;
     font-weight: bolder;
     font-size: 10px;
-    width: 170px;
-    color: rgb(139, 14, 14);
+    width: 150px;
     border: 2px solid rgb(34, 3, 101);
     border-radius: 20px;
     -webkit-border-radius: 8px;
